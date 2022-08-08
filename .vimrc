@@ -1,10 +1,12 @@
 set nu
 set ai
-set ts=4
+set ts=8
 set et
-set sw=4
+set sw=8
 set shell=/bin/bash
 set rtp+=~/.vim/bundle/Vundle.vim
+set title
+set bg=dark
 
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
@@ -12,6 +14,7 @@ Plugin 'nanotech/jellybeans.vim'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'preservim/nerdtree'
 Plugin 'Chiel92/vim-autoformat'
+Plugin 'vim-airline/vim-airline'
 call vundle#end()
 
 set hlsearch
