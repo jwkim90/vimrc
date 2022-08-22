@@ -1,0 +1,8 @@
+set nu
+set ai
+set ts=8
+set et
+set sw=8
+set shell=/bin/bash
+set title
+set bg=dark
