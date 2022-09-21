@@ -6,3 +6,4 @@ set sw=8
 set shell=/bin/bash
 set title
 set bg=dark
+set hlsearch
